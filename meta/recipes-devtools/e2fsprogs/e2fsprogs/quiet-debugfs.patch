@@ -1,7 +1,8 @@
-From 550b5fbece84dde16ce9910c2cad390ea4a2f5d5 Mon Sep 17 00:00:00 2001
+From 5e5820fd214a0bc25907053ae6a76eb1ec493134 Mon Sep 17 00:00:00 2001
 From: Ross Burton <ross.burton@intel.com>
 Date: Mon, 23 Dec 2013 13:38:34 +0000
 Subject: [PATCH] e2fsprogs: silence debugfs
+Organization: O.S. Systems Software LTDA.
 
 When executing a script don't echo every command, as we do this for entire
 filesystems at rootfs time.
